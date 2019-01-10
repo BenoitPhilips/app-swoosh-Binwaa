@@ -90,8 +90,35 @@ dominate the league</string>
             </objects>
             <point key="canvasLocation" x="124" y="127.28635682158921"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="dEW-Tf-lLu">
+            <objects>
+                <viewController id="kND-xq-cTi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xql-FD-qLC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="desiredLeagueBG" translatesAutoresizingMaskIntoConstraints="NO" id="K3u-LT-WBp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="K3u-LT-WBp" firstAttribute="trailing" secondItem="n9J-Xl-sOa" secondAttribute="trailing" id="GCi-Rb-aBs"/>
+                            <constraint firstItem="K3u-LT-WBp" firstAttribute="bottom" secondItem="n9J-Xl-sOa" secondAttribute="bottom" id="HMq-Ck-dDr"/>
+                            <constraint firstItem="K3u-LT-WBp" firstAttribute="leading" secondItem="n9J-Xl-sOa" secondAttribute="leading" id="J2j-Z6-B99"/>
+                            <constraint firstItem="K3u-LT-WBp" firstAttribute="top" secondItem="xql-FD-qLC" secondAttribute="top" id="gtc-YW-ION"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="n9J-Xl-sOa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uVi-OO-88b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904.79999999999995" y="127.28635682158921"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="desiredLeagueBG" width="414" height="736"/>
         <image name="swooshLogo" width="119" height="20"/>
         <image name="welcomeScreenBG" width="414" height="736"/>
     </resources>
